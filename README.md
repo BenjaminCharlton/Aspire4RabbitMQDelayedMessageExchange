@@ -7,10 +7,10 @@ Don't need the source code? Just get the Nuget package: https://www.nuget.org/pa
 .NET Aspire supports the official Management Plugin for RabbitMQ, adding a web GUI for inspecting queues and exchanges of the popular message broker.
 However, it currently doesn't currently (as of early 2025) support adding the Delayed Message Exchange Plugin.
 
-My little library Aspire4RabbitMQDelayedMessageExchange solves the problem by writing a docker file to a temporary location inside your AppHost for you and running it in Docker as part of your distributed application.
+My little library Aspire4RabbitMQDelayedMessageExchange solves the problem by writing a docker file to a temporary location inside your AppHost for you, and running it in Docker as part of your distributed application.
 
 ## Quickstart
-1. Install Aspire4RabbitMQDelayedMessageExchange in your AppHost project via the Nuget package.
+1. Install Aspire4RabbitMQDelayedMessageExchange in your AppHost project via the Nuget package. Usually there's no need to import any namespaces as you'll already be referencing `Aspire.Hosting`.
 2. In your AppHost project's Program.cs file, after your call to `AddRabbitMQ` chain a call to `WithDelayedDeliveryPlugin`.
 3. There is no 3. You are done! You can now use delayed message exchanges as directed by your messaging library (e.g. MassTransit, NServiceBus etc.)
 
