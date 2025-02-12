@@ -1,8 +1,9 @@
 # Aspire4RabbitMQDelayedMessageExchange    
 An easy way to leverage RabbitMQ's Delayed Message Exchange Plugin in Aspire hosted applications using just one line of code. This is great for any event/message-driven application architectures.
 It allows you to delay delivery of messages interacting directly with RabbitMQ or indirectly via NServiceBus, MassTransit or the .NET messaging library of your choice.
-Read more about delayed delivery in RabbitMQ here: https://www.rabbitmq.com/blog/2015/04/16/scheduling-messages-with-rabbitmq
+
 Don't need the source code? Just get the Nuget package: https://www.nuget.org/packages/Aspire4RabbitMQDelayedMessageExchange/
+Read more about delayed delivery in RabbitMQ here: https://www.rabbitmq.com/blog/2015/04/16/scheduling-messages-with-rabbitmq
 
 ## Problem statement
 .NET Aspire supports the official Management Plugin for RabbitMQ, adding a web GUI for inspecting queues and exchanges of the popular message broker.
