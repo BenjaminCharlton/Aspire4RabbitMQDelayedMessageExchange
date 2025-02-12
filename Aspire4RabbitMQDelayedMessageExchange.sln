@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE378741-ACBC-44A9-963A-488DADFCC21D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		LICENSE.txt = LICENSE.txt
+		PublicAPI.Shipped.txt = PublicAPI.Shipped.txt
+		PublicAPI.Unshipped.txt = PublicAPI.Unshipped.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9C291F19-899B-468A-8AB5-B65347589CDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{482D77C8-7E72-4B1B-9FB7-28911DB8FEAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire4RabbitMQDelayedMessageExchange", "src\Aspire4RabbitMQDelayedMessageExchange.csproj", "{55F34B7C-CC89-4834-B463-161F52D94AEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55F34B7C-CC89-4834-B463-161F52D94AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F34B7C-CC89-4834-B463-161F52D94AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F34B7C-CC89-4834-B463-161F52D94AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F34B7C-CC89-4834-B463-161F52D94AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55F34B7C-CC89-4834-B463-161F52D94AEE} = {9C291F19-899B-468A-8AB5-B65347589CDA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82F29473-6AA5-4ABE-92CE-AEF1444531EE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+static Aspire.Hosting.RabbitMQDelayedPluginExtensions.WithDelayedMessageExchangePlugin(this Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.ApplicationModel.RabbitMQServerResource!>! builder, string! tag = "latest") -> Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.ApplicationModel.RabbitMQServerResource!>!
